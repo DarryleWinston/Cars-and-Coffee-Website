@@ -1,0 +1,16 @@
+
+h2 {
+background-color: #FFD700
+}
+h3 {
+background-color: #CD5C5C
+}
+
+article{
+		margin-left: 1em;
+		padding-left: 1em;
+		border-left: 0.25em hidden green;
+		margin-right: 1em;
+		padding-right: 1em;
+		border-right: 0.25em hidden green;
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+        <head>
+				<title>Cars and Coffee Gallery</title>
+                <meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta name="description" content="Cars and Coffee North East @DKIT Dundalk.">
+				<meta name="og:title" property="og:title" content="Cars and Coffee Ireland">
+				
+				<link rel="shortcut icon" href="Images/favicon.ico" type="images/x-icon" />
+				
+				<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+				<link href="css/gallery.css" rel="stylesheet" type="text/css">
+				<link href="css/common.css" rel="stylesheet" type="text/css">
+				
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+				<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+		</head>
+		
+    <body>
+		<main>
+			<script src="js/script.js"></script>	
+		
+			<header>
+				<img src="Banner_Image/Flattened_LayeredBannerImage.jpg" width="1025" alt="The cars and coffee banner image" />
+			</header>
+			<div class="topnav">
+			  <a href="index.html">Home</a>
+			  <a href="info.html">Info</a>
+			  <a href="gallery.html" class="active">Gallery</a>
+			  <a href="nextevent.html">Next Event</a>
+			  <a href="form.html">Form</a>
+			  <div class="date_time">
+			  <span id="date_time"></span>
+			  <script type="text/javascript">window.onload = date_time('date_time');</script>
+			  </div>
+			  <div class="search-container">
+				<form method="get" action="http://google.com/search">
+				  <input type="text" name="q" placeholder="Search.." size="15" />
+				  <button type="submit">Submit</button>
+				</form>
+			  </div>
+			</div>
+
+			<article>
+				<section id="section1">
+					<h2>
+						Gallery
+					</h2>
+					
+					<div class="se-pre-con"></div>
+					
+					<div id="sectiongallery">
+
+					<div class="row">
+					  <div class="column">
+						<img src="images/cortina.jpg" alt="cortina" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/bmw.jpg" alt="bmw" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/mini.jpg" alt="mini" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/starlet.jpg" alt="starlet" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/subaru.jpg" alt="subaru" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/650s.jpg" alt="650s" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/miata.jpg" alt="miata" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/r33.jpg" alt="r33" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/mustang.jpg" alt="mustang" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/alfa.jpg" alt="alfa" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/civic.jpg" alt="civic" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/cerberus.jpg" alt="cerberus" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/capri.jpg" alt="capri" style="width:100%" onclick="openModal();currentSlide(13)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/celica.jpg" alt="celica" style="width:100%" onclick="openModal();currentSlide(14)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/panamera.jpg" alt="panamera" style="width:100%" onclick="openModal();currentSlide(15)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/bentley.jpg" alt="bentley" style="width:100%" onclick="openModal();currentSlide(16)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/glanza.jpg" alt="glanza" style="width:100%" onclick="openModal();currentSlide(17)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/289.jpg" alt="289" style="width:100%" onclick="openModal();currentSlide(18)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/mr.jpg" alt="mr" style="width:100%" onclick="openModal();currentSlide(19)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/gc.jpg" alt="gc" style="width:100%" onclick="openModal();currentSlide(20)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/r34.jpg" alt="r34" style="width:100%" onclick="openModal();currentSlide(21)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/r8.jpg" alt="r8" style="width:100%" onclick="openModal();currentSlide(22)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/2cv.jpg" alt="2cv" style="width:100%" onclick="openModal();currentSlide(23)" class="hover-shadow cursor">
+					  </div>
+					  <div class="column">
+						<img src="images/488.jpg" alt="488" style="width:100%" onclick="openModal();currentSlide(24)" class="hover-shadow cursor">
+					  </div>
+					</div>
+					</div>
+
+					<div id="myModal" class="modal">
+					  <span class="close cursor" onclick="closeModal()">&times;</span>
+					  <div class="modal-content">
+
+						<div class="mySlides">
+						  <div class="numbertext">1 / 24</div>
+						  <img src="images/cortina.jpg" alt="cortina" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+						  <div class="numbertext">2 / 24</div>
+						  <img src="images/bmw.jpg" alt="bmw" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+						  <div class="numbertext">3 / 24</div>
+						  <img src="images/mini.jpg" alt="mini" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">4 / 24</div>
+						  <img src="images/starlet.jpg" alt="starlet" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">5 / 24</div>
+						  <img src="images/subaru.jpg" alt="subaru" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">6 / 24</div>
+						  <img src="images/650s.jpg" alt="650s" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">7 / 24</div>
+						  <img src="images/miata.jpg" alt="miata" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">8 / 24</div>
+						  <img src="images/r33.jpg" alt="r33" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">9 / 24</div>
+						  <img src="images/mustang.jpg" alt="mustang" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">10 / 24</div>
+						  <img src="images/alfa.jpg" alt="alfa" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">11 / 24</div>
+						  <img src="images/civic.jpg" alt="civic" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+						  <div class="numbertext">12 / 24</div>
+						  <img src="images/cerberus.jpg" alt="cerberus" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+						  <div class="numbertext">13 / 24</div>
+						  <img src="images/capri.jpg" alt="capri" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">14 / 24</div>
+						  <img src="images/celica.jpg" alt="celica" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">15 / 24</div>
+						  <img src="images/panamera.jpg" alt="panamera" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">16 / 24</div>
+						  <img src="images/bentley.jpg" alt="bentley" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">17 / 24</div>
+						  <img src="images/glanza.jpg" alt="glanza" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">18 / 24</div>
+						  <img src="images/289.jpg" alt="289" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">19 / 24</div>
+						  <img src="images/mr.jpg" alt="mr" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">20 / 24</div>
+						  <img src="images/gc.jpg" alt="gc" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">21 / 24</div>
+						  <img src="images/r34.jpg" alt="r34" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+						  <div class="numbertext">22 / 24</div>
+						  <img src="images/r8.jpg" alt="r8" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+						  <div class="numbertext">23 / 24</div>
+						  <img src="images/2cv.jpg" alt="2cv" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						  <div class="numbertext">24 / 24</div>
+						  <img src="images/488.jpg" alt="488" style="width:100%">
+						</div>
+						
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						<div class="caption-container">
+						  <p id="caption"></p>
+						</div>
+
+
+						<div class="column">
+						  <img class="demo cursor" src="images/cortina.jpg" style="width:100%" onclick="currentSlide(1)" alt="Mustangs and Cortina">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/bmw.jpg" style="width:100%" onclick="currentSlide(2)" alt="Bmw M3s">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/mini.jpg" style="width:100%" onclick="currentSlide(3)" alt="Minis">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/starlet.jpg" style="width:100%" onclick="currentSlide(4)" alt="Starlet, Celica and Focus ST">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/subaru.jpg" style="width:100%" onclick="currentSlide(5)" alt="Subarus and Vauxhall">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/650s.jpg" style="width:100%" onclick="currentSlide(6)" alt="Mclaren 650S and Ferrari 488 GTB">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/miata.jpg" style="width:100%" onclick="currentSlide(7)" alt="Miatas and 300ZX">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/r33.jpg" style="width:100%" onclick="currentSlide(8)" alt="Skyline GTR R33 and Holden Monaro">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/mustang.jpg" style="width:100%" onclick="currentSlide(9)" alt="Mustang GT">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/alfa.jpg" style="width:100%" onclick="currentSlide(10)" alt="Subaru, Alfa Romeo and Focus ST">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/civic.jpg" style="width:100%" onclick="currentSlide(11)" alt="Civic Trpe R and GTI MK2">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/cerberus.jpg" style="width:100%" onclick="currentSlide(12)" alt="Mclaren 650S">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/capri.jpg" style="width:100%" onclick="currentSlide(13)" alt="Capri and Aston Martin">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/celica.jpg" style="width:100%" onclick="currentSlide(14)" alt="Fiesta ST and Celica">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/panamera.jpg" style="width:100%" onclick="currentSlide(15)" alt="Panamera, GT3 and RS4">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/bentley.jpg" style="width:100%" onclick="currentSlide(16)" alt="Jensen and Bentley">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/glanza.jpg" style="width:100%" onclick="currentSlide(17)" alt="Starlet and Audi">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/289.jpg" style="width:100%" onclick="currentSlide(18)" alt="Mustangs and Cortina">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/mr.jpg" style="width:100%" onclick="currentSlide(19)" alt="Evo 9">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/gc.jpg" style="width:100%" onclick="currentSlide(20)" alt="GC and Evo 4">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/r34.jpg" style="width:100%" onclick="currentSlide(21)" alt="Nissan Skyline GTR R34">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/r8.jpg" style="width:100%" onclick="currentSlide(22)" alt="Audi R8,Gallardo and 488 GTB">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/2cv.jpg" style="width:100%" onclick="currentSlide(23)" alt="2CV and Impala">
+						</div>
+						<div class="column">
+						  <img class="demo cursor" src="images/488.jpg" style="width:100%" onclick="currentSlide(24)" alt="Ferrari 488 GTB">
+						</div>
+					  </div>
+</div>
+
+						
+					<h3>
+					Youtube Link
+					</h3>
+						<div id="sectionyoutube">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/GugxE1veSX0"></iframe>
+						</div>
+						<br>
+				</section>
+			</article>
+				<footer>
+					<address>
+						Copyright <img src="images/favicon.ico" alt="favicon"> CarKnobs 2019 
+					</address>
+				</footer>
+		</main>        
+   </body>
+</html>

@@ -1,0 +1,39 @@
+h2 {
+background-color: #556B2F
+}
+h3 {
+background-color: #E9967A
+}
+
+
+article{
+		margin-left: 1em;
+		padding-left: 1em;
+		border-left: 0.25em hidden green;
+		margin-right: 1em;
+		padding-right: 1em;
+		border-right: 0.25em hidden green;
+}
+
+#section2 ol {
+		list-style-image: url('../images/favicon.ico')
+}
+
+
+
+.info{
+	width: 100%;
+	position: relative;
+}
+
+.leftside{
+	width:40%;
+	position: absolute;
+}
+
+.rightside{
+	padding-top: 1em;
+	right: 0;
+	width: 40%;
+	position: absolute;
+}
